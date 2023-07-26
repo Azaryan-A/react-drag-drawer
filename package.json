@@ -1,5 +1,5 @@
 {
-  "name": "react-drag-drawer",
+  "name": "react-drag-drawer-forked",
   "version": "3.3.4",
   "description": "Draggable react drawer",
   "main": "lib/index.js",
@@ -17,7 +17,8 @@
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "deploy": "npm i && npm run build && npm publish"
   },
   "husky": {
     "hooks": {
