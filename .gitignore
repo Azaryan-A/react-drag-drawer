@@ -1,0 +1,10 @@
+**.log
+node_modules
+examples/simple/build
+**/build
+.DS_Store
+/dist
+umd/
+lib/
+es/
+demo/dist
